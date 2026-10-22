@@ -1,0 +1,120 @@
+openapi: 3.0.3
+info:
+  title: ThesisHub — внешний API (проект)
+  version: 0.1.0
+  description: Проект контракта; HTTP-сервер на первой контрольной точке отсутствует.
+servers:
+  - url: http://localhost:8000
+paths:
+  /api/v1/health:
+    get:
+      operationId: getHealth
+      summary: Проверка состояния
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: {type: string}
+  /api/v1/documents:
+    get:
+      operationId: listDocuments
+      summary: Доступные документы
+      parameters:
+        - in: query
+          name: year
+          schema: {type: integer}
+      responses:
+        '200':
+          description: Список
+          content:
+            application/json:
+              schema:
+                type: array
+                items: {$ref: '#/components/schemas/Document'}
+    post:
+      operationId: uploadDocument
+      summary: Загрузить PDF и метаданные
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [file, title, author, year, permission_confirmed]
+              properties:
+                file: {type: string, format: binary}
+                title: {type: string}
+                author: {type: string}
+                year: {type: integer}
+                work_type: {type: string, enum: [coursework, thesis, article]}
+                permission_confirmed: {type: boolean}
+      responses:
+        '202':
+          description: Принято в обработку
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Document'}
+        '422': {description: Ошибка проверки}
+  /api/v1/ask:
+    post:
+      operationId: askArchive
+      summary: Вопрос к архиву
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/AskRequest'}
+      responses:
+        '200':
+          description: Ответ и источники
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/AskResponse'}
+components:
+  schemas:
+    Document:
+      type: object
+      required: [id, title, author, year, status]
+      properties:
+        id: {type: string}
+        title: {type: string}
+        author: {type: string}
+        year: {type: integer}
+        work_type: {type: string}
+        status: {type: string, enum: [processing, ready, failed]}
+    AskRequest:
+      type: object
+      required: [query]
+      properties:
+        query: {type: string, minLength: 1}
+        top_k: {type: integer, minimum: 1, maximum: 20, default: 5}
+        filters:
+          type: object
+          properties:
+            year: {type: integer}
+            work_type: {type: string}
+    Source:
+      type: object
+      required: [document_id, chunk_id, title, page, excerpt]
+      properties:
+        document_id: {type: string}
+        chunk_id: {type: string}
+        title: {type: string}
+        author: {type: string}
+        year: {type: integer}
+        page: {type: integer}
+        excerpt: {type: string}
+        score: {type: number}
+    AskResponse:
+      type: object
+      required: [answer, sources, status]
+      properties:
+        answer: {type: string}
+        sources:
+          type: array
+          items: {$ref: '#/components/schemas/Source'}
+        status: {type: string, enum: [ok, insufficient_context]}

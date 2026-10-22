@@ -1,0 +1,62 @@
+openapi: 3.0.3
+info:
+  title: ThesisHub — внутренний API собственного BM25
+  version: 0.1.0
+  description: Контракт будущего сервиса, не готовый поисковый индекс.
+servers:
+  - url: http://search:8001
+paths:
+  /v1/search:
+    post:
+      operationId: searchChunks
+      summary: Ранжировать разрешённые фрагменты собственным BM25
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [query, allowed_document_ids]
+              properties:
+                query: {type: string}
+                top_k: {type: integer, default: 5, minimum: 1}
+                year: {type: integer}
+                allowed_document_ids:
+                  type: array
+                  items: {type: string}
+      responses:
+        '200':
+          description: Фрагменты по убыванию BM25
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [index_version, items]
+                properties:
+                  index_version: {type: string}
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      required: [chunk_id, document_id, page, text, score]
+                      properties:
+                        chunk_id: {type: string}
+                        document_id: {type: string}
+                        page: {type: integer}
+                        text: {type: string}
+                        score: {type: number}
+  /v1/index/status:
+    get:
+      operationId: getIndexStatus
+      summary: Версия и размер индекса
+      responses:
+        '200':
+          description: Статус
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  version: {type: string}
+                  document_count: {type: integer}
+                  chunk_count: {type: integer}

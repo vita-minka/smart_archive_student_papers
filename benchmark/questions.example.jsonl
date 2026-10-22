@@ -1,0 +1,1 @@
+{"id": "format-example-001", "split": "example", "query": "Какие работы посвящены RAG в 2024 году?", "filters": {"year": 2024}, "answerable": true, "gold_document_ids": [], "gold_chunk_ids": [], "reference_answer": null, "note": "Пример формата, не размечен; нельзя использовать для расчёта метрик."}
