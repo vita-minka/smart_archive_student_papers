@@ -1,0 +1,2 @@
+{"id": "demo-rag", "split": "dev", "query": "RAG поиск", "gold_document_ids": ["d1", "d2", "d3"]}
+{"id": "demo-bm25", "split": "holdout", "query": "BM25 индекс", "gold_document_ids": ["d4", "d5", "d6"]}

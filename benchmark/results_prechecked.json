@@ -1,0 +1,831 @@
+{
+  "summary": {
+    "questions": 20,
+    "chunks": 2260,
+    "documents": 74,
+    "recall_at_5": 0.5958333333333333,
+    "mrr": 0.8416666666666667,
+    "latency_mean_ms": 1.9513936500175078,
+    "latency_p95_ms": 3.3274889999574953,
+    "k1": 1.5,
+    "b": 0.75,
+    "top_k": 5
+  },
+  "results": [
+    {
+      "id": "q01",
+      "query": "Как определяется архитектура АСОИУ и какие её основные свойства?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-11618572c501",
+        "doc-2f38282a63ff",
+        "doc-49655604f566",
+        "doc-c261582cbcd7"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-11618572c501",
+          "chunk_id": "doc-11618572c501-p0006-c002",
+          "score": 14.93402436
+        },
+        {
+          "document_id": "doc-2f38282a63ff",
+          "chunk_id": "doc-2f38282a63ff-p0003-c002",
+          "score": 12.54716627
+        },
+        {
+          "document_id": "doc-18f40db06aba",
+          "chunk_id": "doc-18f40db06aba-p0001-c001",
+          "score": 12.46179424
+        },
+        {
+          "document_id": "doc-6e392396f19a",
+          "chunk_id": "doc-6e392396f19a-p0035-c003",
+          "score": 12.07715209
+        },
+        {
+          "document_id": "doc-cfa1fd412234",
+          "chunk_id": "doc-cfa1fd412234-p0018-c001",
+          "score": 11.93760038
+        }
+      ],
+      "recall_at_5": 0.5,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.2417200000054436
+    },
+    {
+      "id": "q02",
+      "query": "Какие подходы применяются при структурном анализе и проектировании АСОИУ?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-49655604f566",
+        "doc-bc06809fd5fb",
+        "doc-c35d7d5264d8",
+        "doc-f8efc2020d97"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-26dfb24d402a",
+          "chunk_id": "doc-26dfb24d402a-p0001-c001",
+          "score": 14.52374844
+        },
+        {
+          "document_id": "doc-bc06809fd5fb",
+          "chunk_id": "doc-bc06809fd5fb-p0001-c002",
+          "score": 11.70034888
+        },
+        {
+          "document_id": "doc-11618572c501",
+          "chunk_id": "doc-11618572c501-p0005-c001",
+          "score": 9.73683923
+        },
+        {
+          "document_id": "doc-cfa1fd412234",
+          "chunk_id": "doc-cfa1fd412234-p0010-c002",
+          "score": 9.03380832
+        },
+        {
+          "document_id": "doc-2ed8083eeded",
+          "chunk_id": "doc-2ed8083eeded-p0011-c002",
+          "score": 8.9040511
+        }
+      ],
+      "recall_at_5": 0.25,
+      "reciprocal_rank": 0.5,
+      "latency_ms": 2.02331199989203
+    },
+    {
+      "id": "q03",
+      "query": "В чём состоит объектно-ориентированный анализ и проектирование систем?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-14d6f1934f1c",
+        "doc-49655604f566",
+        "doc-4d01a276e324"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-14d6f1934f1c",
+          "chunk_id": "doc-14d6f1934f1c-p0002-c002",
+          "score": 18.45059234
+        },
+        {
+          "document_id": "doc-717763b330a1",
+          "chunk_id": "doc-717763b330a1-p0011-c002",
+          "score": 14.63347691
+        },
+        {
+          "document_id": "doc-8f08a0397a54",
+          "chunk_id": "doc-8f08a0397a54-p0036-c001",
+          "score": 11.40581275
+        },
+        {
+          "document_id": "doc-11618572c501",
+          "chunk_id": "doc-11618572c501-p0003-c002",
+          "score": 11.35969456
+        },
+        {
+          "document_id": "doc-49655604f566",
+          "chunk_id": "doc-49655604f566-p0009-c002",
+          "score": 10.60026261
+        }
+      ],
+      "recall_at_5": 0.6666666666666666,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.9180820001784014
+    },
+    {
+      "id": "q04",
+      "query": "Для чего используется методология IDEF0 при моделировании информационных систем?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-8f08a0397a54",
+        "doc-a6ff9453203e",
+        "doc-bc06809fd5fb",
+        "doc-f8efc2020d97"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-f8efc2020d97",
+          "chunk_id": "doc-f8efc2020d97-p0001-c002",
+          "score": 17.66593967
+        },
+        {
+          "document_id": "doc-569265ea66f8",
+          "chunk_id": "doc-569265ea66f8-p0001-c003",
+          "score": 15.94431285
+        },
+        {
+          "document_id": "doc-49655604f566",
+          "chunk_id": "doc-49655604f566-p0009-c002",
+          "score": 13.63393164
+        },
+        {
+          "document_id": "doc-cfa1fd412234",
+          "chunk_id": "doc-cfa1fd412234-p0015-c001",
+          "score": 13.40981002
+        },
+        {
+          "document_id": "doc-53850bc04030",
+          "chunk_id": "doc-53850bc04030-p0018-c001",
+          "score": 12.96271437
+        }
+      ],
+      "recall_at_5": 0.25,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.19697400007135
+    },
+    {
+      "id": "q05",
+      "query": "Какие принципы лежат в основе концептуального анализа и проектирования?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-15a2106dbf7f",
+        "doc-49655604f566",
+        "doc-bc06809fd5fb"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-49655604f566",
+          "chunk_id": "doc-49655604f566-p0009-c002",
+          "score": 20.5985441
+        },
+        {
+          "document_id": "doc-bc06809fd5fb",
+          "chunk_id": "doc-bc06809fd5fb-p0002-c002",
+          "score": 15.27873787
+        },
+        {
+          "document_id": "doc-4d01a276e324",
+          "chunk_id": "doc-4d01a276e324-p0001-c001",
+          "score": 15.25611029
+        },
+        {
+          "document_id": "doc-c35d7d5264d8",
+          "chunk_id": "doc-c35d7d5264d8-p0002-c001",
+          "score": 14.6454695
+        },
+        {
+          "document_id": "doc-4e05c52655f2",
+          "chunk_id": "doc-4e05c52655f2-p0010-c002",
+          "score": 11.6605504
+        }
+      ],
+      "recall_at_5": 0.6666666666666666,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.0185240000264457
+    },
+    {
+      "id": "q06",
+      "query": "Как рассматривается функционально-стоимостной анализ при проектировании систем?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-49655604f566",
+        "doc-4d01a276e324",
+        "doc-5c84988a1299",
+        "doc-c35d7d5264d8"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-5d4f11009964",
+          "chunk_id": "doc-5d4f11009964-p0002-c001",
+          "score": 15.09265241
+        },
+        {
+          "document_id": "doc-5c84988a1299",
+          "chunk_id": "doc-5c84988a1299-p0001-c001",
+          "score": 14.35317269
+        },
+        {
+          "document_id": "doc-49655604f566",
+          "chunk_id": "doc-49655604f566-p0009-c002",
+          "score": 12.82623499
+        },
+        {
+          "document_id": "doc-4d01a276e324",
+          "chunk_id": "doc-4d01a276e324-p0002-c001",
+          "score": 12.54020772
+        },
+        {
+          "document_id": "doc-4fe62bfac248",
+          "chunk_id": "doc-4fe62bfac248-p0002-c001",
+          "score": 11.2639452
+        }
+      ],
+      "recall_at_5": 0.75,
+      "reciprocal_rank": 0.5,
+      "latency_ms": 1.2008310000055644
+    },
+    {
+      "id": "q07",
+      "query": "Какие этапы включает жизненный цикл информационной системы?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-3cbc581583b8",
+        "doc-4e05c52655f2",
+        "doc-e5c2376d3f64",
+        "doc-f09328bce9a7"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-4e05c52655f2",
+          "chunk_id": "doc-4e05c52655f2-p0012-c002",
+          "score": 18.13197936
+        },
+        {
+          "document_id": "doc-cfa1fd412234",
+          "chunk_id": "doc-cfa1fd412234-p0015-c001",
+          "score": 15.15642857
+        },
+        {
+          "document_id": "doc-3cbc581583b8",
+          "chunk_id": "doc-3cbc581583b8-p0008-c001",
+          "score": 13.94449413
+        },
+        {
+          "document_id": "doc-e5c2376d3f64",
+          "chunk_id": "doc-e5c2376d3f64-p0013-c001",
+          "score": 13.14230691
+        },
+        {
+          "document_id": "doc-6e392396f19a",
+          "chunk_id": "doc-6e392396f19a-p0036-c002",
+          "score": 11.31765315
+        }
+      ],
+      "recall_at_5": 0.75,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 0.7140669999898819
+    },
+    {
+      "id": "q08",
+      "query": "Как определяются проектирование, проект и проектная задача?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-3cbc581583b8",
+        "doc-4e05c52655f2",
+        "doc-e5c2376d3f64",
+        "doc-ed4b71ddf9b8"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-3cbc581583b8",
+          "chunk_id": "doc-3cbc581583b8-p0001-c001",
+          "score": 27.20133977
+        },
+        {
+          "document_id": "doc-8f08a0397a54",
+          "chunk_id": "doc-8f08a0397a54-p0036-c001",
+          "score": 12.86978011
+        },
+        {
+          "document_id": "doc-49655604f566",
+          "chunk_id": "doc-49655604f566-p0022-c001",
+          "score": 12.30762015
+        },
+        {
+          "document_id": "doc-ed4b71ddf9b8",
+          "chunk_id": "doc-ed4b71ddf9b8-p0029-c001",
+          "score": 10.37445223
+        },
+        {
+          "document_id": "doc-4e05c52655f2",
+          "chunk_id": "doc-4e05c52655f2-p0010-c002",
+          "score": 10.30867035
+        }
+      ],
+      "recall_at_5": 0.75,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 1.90146799991453
+    },
+    {
+      "id": "q09",
+      "query": "Какие этапы и методы автоматизации выделяются в информационных системах?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-19f2b8c87775",
+        "doc-1a760f32d870",
+        "doc-3b0dcd5dcc6c",
+        "doc-49655604f566"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-bc06809fd5fb",
+          "chunk_id": "doc-bc06809fd5fb-p0002-c003",
+          "score": 12.8763477
+        },
+        {
+          "document_id": "doc-c35d7d5264d8",
+          "chunk_id": "doc-c35d7d5264d8-p0002-c001",
+          "score": 12.8703165
+        },
+        {
+          "document_id": "doc-1a760f32d870",
+          "chunk_id": "doc-1a760f32d870-p0001-c001",
+          "score": 11.75254814
+        },
+        {
+          "document_id": "doc-569265ea66f8",
+          "chunk_id": "doc-569265ea66f8-p0001-c003",
+          "score": 11.74954906
+        },
+        {
+          "document_id": "doc-cfa1fd412234",
+          "chunk_id": "doc-cfa1fd412234-p0008-c001",
+          "score": 11.58780587
+        }
+      ],
+      "recall_at_5": 0.25,
+      "reciprocal_rank": 0.3333333333333333,
+      "latency_ms": 2.467672999955539
+    },
+    {
+      "id": "q10",
+      "query": "Какие тенденции автоматизации и информационные барьеры рассматриваются?",
+      "split": "dev",
+      "gold_document_ids": [
+        "doc-1a760f32d870",
+        "doc-2cc5c1712f18",
+        "doc-3b7f787f5e79",
+        "doc-4e05c52655f2"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-3b7f787f5e79",
+          "chunk_id": "doc-3b7f787f5e79-p0001-c001",
+          "score": 19.8509928
+        },
+        {
+          "document_id": "doc-2f38282a63ff",
+          "chunk_id": "doc-2f38282a63ff-p0002-c002",
+          "score": 13.89722649
+        },
+        {
+          "document_id": "doc-4fe62bfac248",
+          "chunk_id": "doc-4fe62bfac248-p0001-c002",
+          "score": 12.31352717
+        },
+        {
+          "document_id": "doc-3b0dcd5dcc6c",
+          "chunk_id": "doc-3b0dcd5dcc6c-p0014-c002",
+          "score": 10.66922682
+        },
+        {
+          "document_id": "doc-4e05c52655f2",
+          "chunk_id": "doc-4e05c52655f2-p0012-c001",
+          "score": 10.22561294
+        }
+      ],
+      "recall_at_5": 0.5,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 1.7281670000102167
+    },
+    {
+      "id": "q11",
+      "query": "Как устроена государственная автоматизированная система ГАС Выборы?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-057e431d24cc",
+        "doc-3b0dcd5dcc6c",
+        "doc-3cbc581583b8"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-3b0dcd5dcc6c",
+          "chunk_id": "doc-3b0dcd5dcc6c-p0001-c001",
+          "score": 17.15229979
+        },
+        {
+          "document_id": "doc-15a2106dbf7f",
+          "chunk_id": "doc-15a2106dbf7f-p0007-c003",
+          "score": 16.41752293
+        },
+        {
+          "document_id": "doc-3d742602a52e",
+          "chunk_id": "doc-3d742602a52e-p0037-c002",
+          "score": 15.80201419
+        },
+        {
+          "document_id": "doc-bc8955914af2",
+          "chunk_id": "doc-bc8955914af2-p0025-c002",
+          "score": 15.5086172
+        },
+        {
+          "document_id": "doc-3b7f787f5e79",
+          "chunk_id": "doc-3b7f787f5e79-p0019-c002",
+          "score": 14.93019154
+        }
+      ],
+      "recall_at_5": 0.3333333333333333,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 1.0552520000146615
+    },
+    {
+      "id": "q12",
+      "query": "Какие задачи решает государственная автоматизированная система ГАС Контур?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-3cbc581583b8",
+        "doc-5f3f748b9983",
+        "doc-c96bbc1fc1fb"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-144c6a42ebbe",
+          "chunk_id": "doc-144c6a42ebbe-p0003-c003",
+          "score": 20.3922638
+        },
+        {
+          "document_id": "doc-c96bbc1fc1fb",
+          "chunk_id": "doc-c96bbc1fc1fb-p0004-c001",
+          "score": 18.60054158
+        },
+        {
+          "document_id": "doc-3d742602a52e",
+          "chunk_id": "doc-3d742602a52e-p0037-c003",
+          "score": 16.25253928
+        },
+        {
+          "document_id": "doc-15a2106dbf7f",
+          "chunk_id": "doc-15a2106dbf7f-p0008-c001",
+          "score": 16.09025749
+        },
+        {
+          "document_id": "doc-057e431d24cc",
+          "chunk_id": "doc-057e431d24cc-p0016-c001",
+          "score": 15.46763479
+        }
+      ],
+      "recall_at_5": 0.3333333333333333,
+      "reciprocal_rank": 0.5,
+      "latency_ms": 0.7515639999837731
+    },
+    {
+      "id": "q13",
+      "query": "Что представляет собой базовая функционально-структурная модель АСОИУ?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-2f38282a63ff",
+        "doc-49655604f566",
+        "doc-e5c2376d3f64",
+        "doc-ed4b71ddf9b8"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-2f38282a63ff",
+          "chunk_id": "doc-2f38282a63ff-p0004-c001",
+          "score": 27.94967685
+        },
+        {
+          "document_id": "doc-49655604f566",
+          "chunk_id": "doc-49655604f566-p0001-c002",
+          "score": 25.91778586
+        },
+        {
+          "document_id": "doc-ed4b71ddf9b8",
+          "chunk_id": "doc-ed4b71ddf9b8-p0002-c001",
+          "score": 20.84808878
+        },
+        {
+          "document_id": "doc-e5c2376d3f64",
+          "chunk_id": "doc-e5c2376d3f64-p0001-c001",
+          "score": 19.82384044
+        },
+        {
+          "document_id": "doc-2ed8083eeded",
+          "chunk_id": "doc-2ed8083eeded-p0001-c001",
+          "score": 15.84752554
+        }
+      ],
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 0.9780060001958191
+    },
+    {
+      "id": "q14",
+      "query": "Какую роль играет модель пользователя в архитектуре АСОИУ?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-18f40db06aba",
+        "doc-1e70378b9b12",
+        "doc-2f38282a63ff"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-49655604f566",
+          "chunk_id": "doc-49655604f566-p0001-c002",
+          "score": 19.92941774
+        },
+        {
+          "document_id": "doc-2f38282a63ff",
+          "chunk_id": "doc-2f38282a63ff-p0004-c001",
+          "score": 16.95753519
+        },
+        {
+          "document_id": "doc-14d6f1934f1c",
+          "chunk_id": "doc-14d6f1934f1c-p0003-c002",
+          "score": 14.91325783
+        },
+        {
+          "document_id": "doc-3d742602a52e",
+          "chunk_id": "doc-3d742602a52e-p0012-c002",
+          "score": 11.77675172
+        },
+        {
+          "document_id": "doc-18f40db06aba",
+          "chunk_id": "doc-18f40db06aba-p0021-c001",
+          "score": 11.42801855
+        }
+      ],
+      "recall_at_5": 0.6666666666666666,
+      "reciprocal_rank": 0.5,
+      "latency_ms": 1.7273160001423093
+    },
+    {
+      "id": "q15",
+      "query": "Какие топологии и виды связей рассматриваются в архитектуре систем?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-3b0dcd5dcc6c",
+        "doc-6e392396f19a",
+        "doc-c35d7d5264d8"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-5d4d1c339c6e",
+          "chunk_id": "doc-5d4d1c339c6e-p0001-c001",
+          "score": 13.13069772
+        },
+        {
+          "document_id": "doc-6e392396f19a",
+          "chunk_id": "doc-6e392396f19a-p0001-c002",
+          "score": 13.08071032
+        },
+        {
+          "document_id": "doc-14a3e55cdad5",
+          "chunk_id": "doc-14a3e55cdad5-p0001-c001",
+          "score": 11.54754406
+        },
+        {
+          "document_id": "doc-c96bbc1fc1fb",
+          "chunk_id": "doc-c96bbc1fc1fb-p0001-c002",
+          "score": 10.21613016
+        },
+        {
+          "document_id": "doc-c35d7d5264d8",
+          "chunk_id": "doc-c35d7d5264d8-p0003-c001",
+          "score": 9.9345683
+        }
+      ],
+      "recall_at_5": 0.6666666666666666,
+      "reciprocal_rank": 0.5,
+      "latency_ms": 3.1157899998106586
+    },
+    {
+      "id": "q16",
+      "query": "Как используются SQL-запросы для обработки данных в реляционных базах?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-1cd9637bf84d",
+        "doc-21ae1e104c5a",
+        "doc-3d6bf4f42978"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-21ae1e104c5a",
+          "chunk_id": "doc-21ae1e104c5a-p0002-c001",
+          "score": 15.78556278
+        },
+        {
+          "document_id": "doc-3d6bf4f42978",
+          "chunk_id": "doc-3d6bf4f42978-p0002-c001",
+          "score": 15.78556278
+        },
+        {
+          "document_id": "doc-3cf365a422cb",
+          "chunk_id": "doc-3cf365a422cb-p0002-c001",
+          "score": 12.58032868
+        },
+        {
+          "document_id": "doc-144c6a42ebbe",
+          "chunk_id": "doc-144c6a42ebbe-p0006-c002",
+          "score": 12.55818072
+        },
+        {
+          "document_id": "doc-954a23f2d13e",
+          "chunk_id": "doc-954a23f2d13e-p0001-c001",
+          "score": 12.33071848
+        }
+      ],
+      "recall_at_5": 0.6666666666666666,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.0135260001316055
+    },
+    {
+      "id": "q17",
+      "query": "Какие возможности PostgreSQL используются при разработке баз данных?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-1cd9637bf84d",
+        "doc-8f08a0397a54",
+        "doc-a0cec0bc9376",
+        "doc-a6ff9453203e"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-a6ff9453203e",
+          "chunk_id": "doc-a6ff9453203e-p0023-c002",
+          "score": 17.72192131
+        },
+        {
+          "document_id": "doc-c35d7d5264d8",
+          "chunk_id": "doc-c35d7d5264d8-p0001-c001",
+          "score": 11.56131644
+        },
+        {
+          "document_id": "doc-8f08a0397a54",
+          "chunk_id": "doc-8f08a0397a54-p0005-c001",
+          "score": 11.12594051
+        },
+        {
+          "document_id": "doc-14d6f1934f1c",
+          "chunk_id": "doc-14d6f1934f1c-p0003-c001",
+          "score": 10.4919687
+        },
+        {
+          "document_id": "doc-cfa1fd412234",
+          "chunk_id": "doc-cfa1fd412234-p0013-c001",
+          "score": 10.47900684
+        }
+      ],
+      "recall_at_5": 0.5,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 0.8833930000946566
+    },
+    {
+      "id": "q18",
+      "query": "Какие задачи выполняются при администрировании операционных систем Linux?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-170d5593b104",
+        "doc-256dbdd607ed",
+        "doc-717763b330a1",
+        "doc-baa26a6e1e57"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-256dbdd607ed",
+          "chunk_id": "doc-256dbdd607ed-p0019-c001",
+          "score": 12.77412507
+        },
+        {
+          "document_id": "doc-baa26a6e1e57",
+          "chunk_id": "doc-baa26a6e1e57-p0015-c002",
+          "score": 12.10806934
+        },
+        {
+          "document_id": "doc-717763b330a1",
+          "chunk_id": "doc-717763b330a1-p0021-c001",
+          "score": 11.12846879
+        },
+        {
+          "document_id": "doc-057e431d24cc",
+          "chunk_id": "doc-057e431d24cc-p0001-c002",
+          "score": 9.79108767
+        },
+        {
+          "document_id": "doc-170d5593b104",
+          "chunk_id": "doc-170d5593b104-p0007-c002",
+          "score": 9.77497868
+        }
+      ],
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 0.906547000113278
+    },
+    {
+      "id": "q19",
+      "query": "Как организованы файловые системы и управление файлами в Linux?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-170d5593b104",
+        "doc-256dbdd607ed",
+        "doc-a2cc31be4eb5"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-256dbdd607ed",
+          "chunk_id": "doc-256dbdd607ed-p0023-c001",
+          "score": 16.34962293
+        },
+        {
+          "document_id": "doc-baa26a6e1e57",
+          "chunk_id": "doc-baa26a6e1e57-p0014-c001",
+          "score": 11.90129872
+        },
+        {
+          "document_id": "doc-170d5593b104",
+          "chunk_id": "doc-170d5593b104-p0009-c001",
+          "score": 10.57116019
+        },
+        {
+          "document_id": "doc-53850bc04030",
+          "chunk_id": "doc-53850bc04030-p0001-c001",
+          "score": 9.9747197
+        },
+        {
+          "document_id": "doc-717763b330a1",
+          "chunk_id": "doc-717763b330a1-p0012-c001",
+          "score": 9.95271171
+        }
+      ],
+      "recall_at_5": 0.6666666666666666,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.3274889999574953
+    },
+    {
+      "id": "q20",
+      "query": "Как работает маршрутизация и настройка сетевых соединений?",
+      "split": "holdout",
+      "gold_document_ids": [
+        "doc-1467804a13f3",
+        "doc-207fc44079b2",
+        "doc-26dfb24d402a",
+        "doc-41ae0f2bd45b"
+      ],
+      "ranked": [
+        {
+          "document_id": "doc-207fc44079b2",
+          "chunk_id": "doc-207fc44079b2-p0002-c001",
+          "score": 13.1540102
+        },
+        {
+          "document_id": "doc-41ae0f2bd45b",
+          "chunk_id": "doc-41ae0f2bd45b-p0002-c001",
+          "score": 13.1540102
+        },
+        {
+          "document_id": "doc-6e392396f19a",
+          "chunk_id": "doc-6e392396f19a-p0001-c003",
+          "score": 10.11758963
+        },
+        {
+          "document_id": "doc-26dfb24d402a",
+          "chunk_id": "doc-26dfb24d402a-p0014-c001",
+          "score": 9.30085547
+        },
+        {
+          "document_id": "doc-717763b330a1",
+          "chunk_id": "doc-717763b330a1-p0005-c001",
+          "score": 9.08322634
+        }
+      ],
+      "recall_at_5": 0.75,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 1.858171999856495
+    }
+  ],
+  "mode": "real_corpus_unverified_labels",
+  "corpus_path": "corpus/chunks.jsonl",
+  "questions_path": "benchmark/questions_prechecked.jsonl"
+}
