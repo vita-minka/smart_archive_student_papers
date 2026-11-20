@@ -1,0 +1,594 @@
+[
+  {
+    "document_id": "doc-53850bc04030",
+    "source": "OS_labs1_4.pdf",
+    "title": "OS_labs1_4",
+    "sha256": "4f5d0ad7844cb9bbfbc8247ae5ee2b06d33182b8b01eafa7f376db2753424813",
+    "pages": 25,
+    "chunks": 25
+  },
+  {
+    "document_id": "doc-a87d2ab82c87",
+    "source": "seminars.pdf",
+    "title": "seminars",
+    "sha256": "51b258fd2cf9be5985a72e0f7deb85652c5f65d24072d48f0489289996f40c9d",
+    "pages": 158,
+    "chunks": 201
+  },
+  {
+    "document_id": "doc-569265ea66f8",
+    "source": "Аннотация 1-3.pdf",
+    "title": "Аннотация 1-3",
+    "sha256": "5bfa2af6353840e993917592d9df8ed59f4eabb41aa944f2f55152ce23471aba",
+    "pages": 2,
+    "chunks": 5
+  },
+  {
+    "document_id": "doc-bc06809fd5fb",
+    "source": "Аннотация лекций №4-8 Гапеева Олеся ИУ5-31Б.pdf",
+    "title": "Аннотация лекций №4-8 Гапеева Олеся ИУ5-31Б",
+    "sha256": "d585e3a50eadaccb918243b08cc7ad998f89648d4acb64586ccb9ee9eebc3ff7",
+    "pages": 3,
+    "chunks": 8
+  },
+  {
+    "document_id": "doc-5d4d1c339c6e",
+    "source": "Аннотация лекций №9-13 Гапеева Олеся ИУ5-31Б.pdf",
+    "title": "Аннотация лекций №9-13 Гапеева Олеся ИУ5-31Б",
+    "sha256": "f7242fcc0904d4f12fd2e07180060f42438f63d8bcf550a05a042a4b62085fbb",
+    "pages": 3,
+    "chunks": 8
+  },
+  {
+    "document_id": "doc-3d6bf4f42978",
+    "source": "ИУ5-45Б Гремина БД Отчет Лаб6 (2).pdf",
+    "title": "ИУ5-45Б Гремина БД Отчет Лаб6 (2)",
+    "sha256": "40ceff2244f9aa4579b6f5f122abf5efbc545ac7863cd03648d93bbeee97e04e",
+    "pages": 25,
+    "chunks": 25
+  },
+  {
+    "document_id": "doc-8f08a0397a54",
+    "source": "ИУ5-45Б Иванов БД КР РПЗ.pdf",
+    "title": "ИУ5-45Б Иванов БД КР РПЗ",
+    "sha256": "4739a17d23fc2a11d4a605fb483df4f3d98b07e2e9d931520ad795c132c3e4d4",
+    "pages": 44,
+    "chunks": 59
+  },
+  {
+    "document_id": "doc-a6ff9453203e",
+    "source": "ИУ5-45Б Корольков БД КР РПЗ.pdf",
+    "title": "ИУ5-45Б Корольков БД КР РПЗ",
+    "sha256": "5b842c7b582095b31b107a184979d2df74380e3e7636314406439f259128f137",
+    "pages": 45,
+    "chunks": 59
+  },
+  {
+    "document_id": "doc-21ae1e104c5a",
+    "source": "ИУ5-45Б Корольков БД Отчет ЛР6.pdf",
+    "title": "ИУ5-45Б Корольков БД Отчет ЛР6",
+    "sha256": "36ff3412622e480aa51603edbe3e6b1b3a0d36556aed5711dc21b534c0192916",
+    "pages": 25,
+    "chunks": 24
+  },
+  {
+    "document_id": "doc-98f97faf951b",
+    "source": "ИУ5-55Б_Корольков_ЛР1_СиТ.pdf",
+    "title": "ИУ5-55Б_Корольков_ЛР1_СиТ",
+    "sha256": "f6ac9d98720a49e9924d765152ed64665f9a9a375e8a79adb2b10170a903b3da",
+    "pages": 10,
+    "chunks": 12
+  },
+  {
+    "document_id": "doc-26dfb24d402a",
+    "source": "ИУ5-55Б_Корольков_ЛР2_СиТ.pdf",
+    "title": "ИУ5-55Б_Корольков_ЛР2_СиТ",
+    "sha256": "5fd1e435f0f5ae0c1e561b57d301c51a6dfebc624085424e4008af69639ce27a",
+    "pages": 19,
+    "chunks": 19
+  },
+  {
+    "document_id": "doc-1467804a13f3",
+    "source": "ИУ5-55Б_Корольков_ЛР3_СиТ.pdf",
+    "title": "ИУ5-55Б_Корольков_ЛР3_СиТ",
+    "sha256": "1991d1391909fe9f92bc0a5ddcac9acfbc95b4f3075d00a708bc4fc7ac5cc453",
+    "pages": 20,
+    "chunks": 18
+  },
+  {
+    "document_id": "doc-3f427c882edb",
+    "source": "ИУ5-55Б_Корольков_ЛР4_СиТ.pdf",
+    "title": "ИУ5-55Б_Корольков_ЛР4_СиТ",
+    "sha256": "ac83f7bf29d4332a5ed4c2fbe4c9d96ad7b29c05e2bd6c30704ad629de460a13",
+    "pages": 14,
+    "chunks": 16
+  },
+  {
+    "document_id": "doc-4d01a276e324",
+    "source": "ИУ5_32Б_Семчёнок_анн_5_9_срок_сдачи_25_11.pdf",
+    "title": "ИУ5_32Б_Семчёнок_анн_5_9_срок_сдачи_25_11",
+    "sha256": "e9e1e2dc02b16ab76a7e96f64d97c4296227b617f907bcebf70fdcfbbab99838",
+    "pages": 4,
+    "chunks": 9
+  },
+  {
+    "document_id": "doc-c35d7d5264d8",
+    "source": "ИУ5_32Б_Ховен_Ольга_Анн_5_9_срок_сдачи_04_11_2022.pdf",
+    "title": "ИУ5_32Б_Ховен_Ольга_Анн_5_9_срок_сдачи_04_11_2022",
+    "sha256": "f465a4e2e9aba4a2469b4687ffb313eaf9e742f3e99dcddbe3feef7f6eea04f7",
+    "pages": 4,
+    "chunks": 8
+  },
+  {
+    "document_id": "doc-cfa1fd412234",
+    "source": "Иванов_33_КР_подготовлено_02.11.23.pdf",
+    "title": "Иванов_33_КР_подготовлено_02.11.23",
+    "sha256": "7424222cf80f47f3b7a8ea5293377394535745ff6584c589dd2c3ee58dcb5ae1",
+    "pages": 18,
+    "chunks": 31
+  },
+  {
+    "document_id": "doc-96fa584a1029",
+    "source": "Корольков-ИУ5-35Б-МД-ЛР1.pdf",
+    "title": "Корольков-ИУ5-35Б-МД-ЛР1",
+    "sha256": "3f7cebb3401eae0eb48d1678de8a0c0c7f97075e6181b1b0ebcaf368c5bbbad1",
+    "pages": 9,
+    "chunks": 12
+  },
+  {
+    "document_id": "doc-954a23f2d13e",
+    "source": "Корольков-ИУ5-35Б-МД-ЛР2.pdf",
+    "title": "Корольков-ИУ5-35Б-МД-ЛР2",
+    "sha256": "14cc8546719f52a3fe69257939dc4fb43bb9ae0157c13b2042c653be3ece0b40",
+    "pages": 9,
+    "chunks": 9
+  },
+  {
+    "document_id": "doc-e42caa347dec",
+    "source": "Корольков_25_АннЛК_№1-6_подготовлена 26.03.2025.pdf",
+    "title": "Корольков_25_АннЛК_№1-6_подготовлена 26.03.2025",
+    "sha256": "194ae89a929e55d1aa6202b6ad311140975c7f6be7a42c232a2d343bbb6cebc4",
+    "pages": 2,
+    "chunks": 4
+  },
+  {
+    "document_id": "doc-90e60f0a82be",
+    "source": "Корольков_25_АннЛК_№12_13_подготовлен_23.04.2025.pdf",
+    "title": "Корольков_25_АннЛК_№12_13_подготовлен_23.04.2025",
+    "sha256": "8e9b3220de28d983f06e7cede03290f0ee491d66421ae564a21c43d7851116bf",
+    "pages": 2,
+    "chunks": 3
+  },
+  {
+    "document_id": "doc-4fe62bfac248",
+    "source": "Корольков_25_АннЛК_№14_17_подготовлена_28.05.25.pdf",
+    "title": "Корольков_25_АннЛК_№14_17_подготовлена_28.05.25",
+    "sha256": "aaa495dc17d5de95f01fcc4034c18b93323099c0f946ba7f60bf9c6bc4de2feb",
+    "pages": 2,
+    "chunks": 3
+  },
+  {
+    "document_id": "doc-3cf365a422cb",
+    "source": "Корольков_25_АннЛК_№7_11_подготовлена_16_04_25.pdf",
+    "title": "Корольков_25_АннЛК_№7_11_подготовлена_16_04_25",
+    "sha256": "35cbc597fe3fddfe730e7864f6534f1dac569060fc7abfcdf2a4c60794b8f6ee",
+    "pages": 3,
+    "chunks": 5
+  },
+  {
+    "document_id": "doc-f1d0924c953e",
+    "source": "Корольков_25_КВ_№227_подготовлен_28.05.25.pdf",
+    "title": "Корольков_25_КВ_№227_подготовлен_28.05.25",
+    "sha256": "c0b07cbe0c82033f2171099c9c2291dac69a1e55c772a54c12084bbe6813cb14",
+    "pages": 2,
+    "chunks": 3
+  },
+  {
+    "document_id": "doc-eb9497f832ad",
+    "source": "Корольков_25_КВ_№4_подготовлен_05.03.25.pdf",
+    "title": "Корольков_25_КВ_№4_подготовлен_05.03.25",
+    "sha256": "195b526d717078fa13a6475afcd78d10d310247447ba0c66e2116877e626a0b4",
+    "pages": 2,
+    "chunks": 4
+  },
+  {
+    "document_id": "doc-5d4f11009964",
+    "source": "Корольков_35_АннЛК_№1_7_подготовлена_21_10_25.pdf",
+    "title": "Корольков_35_АннЛК_№1_7_подготовлена_21_10_25",
+    "sha256": "02f66b26a9f4fe93bec2a4fe68284bc314936592ea767b9a046abdb4ab827a3a",
+    "pages": 2,
+    "chunks": 5
+  },
+  {
+    "document_id": "doc-14a3e55cdad5",
+    "source": "Корольков_35_АннЛК_№8_13_подготовлена_02_12_25.pdf",
+    "title": "Корольков_35_АннЛК_№8_13_подготовлена_02_12_25",
+    "sha256": "fbe9b9d566b1aea1803f5c8f46a64c1bb13d9b02973b47dcdc7bea350343097b",
+    "pages": 2,
+    "chunks": 5
+  },
+  {
+    "document_id": "doc-23277c8897a6",
+    "source": "Корольков_35_КВ_№230_Подготовлен_30_09_2025.pdf",
+    "title": "Корольков_35_КВ_№230_Подготовлен_30_09_2025",
+    "sha256": "6e8085fcda1c806b6ad1bb3016a9098de5222363697821b4917b45b69b922c61",
+    "pages": 2,
+    "chunks": 3
+  },
+  {
+    "document_id": "doc-ca6109b8cb93",
+    "source": "Корольков_35_КВ_№340_Подготовлен_03_11_2025.pdf",
+    "title": "Корольков_35_КВ_№340_Подготовлен_03_11_2025",
+    "sha256": "e30bf8efab8564dc307deae5cbd71c45875b4b9fc328f4568fd1f9563b52ad0f",
+    "pages": 4,
+    "chunks": 5
+  },
+  {
+    "document_id": "doc-d6a885be44c7",
+    "source": "Корольков_35_КВ_№93_Подготовлен_14_10_2025.pdf",
+    "title": "Корольков_35_КВ_№93_Подготовлен_14_10_2025",
+    "sha256": "dcb23e11508b9cbf8f6e4be84718a71d202a4c532d207e1fcfcb76ffc978a01e",
+    "pages": 2,
+    "chunks": 2
+  },
+  {
+    "document_id": "doc-c261582cbcd7",
+    "source": "ЛК ь1  2025 £Ѓ§.pdf",
+    "title": "ЛК ь1  2025 £Ѓ§",
+    "sha256": "4ff1a1bfc7302066fc0acfcdf6409fb8492dc39a0c1af18bbbb2ad16470e3bfa",
+    "pages": 13,
+    "chunks": 33
+  },
+  {
+    "document_id": "doc-ae2bfb0514be",
+    "source": "ЛК ь10  2025£Ѓ§.pdf",
+    "title": "ЛК ь10  2025£Ѓ§",
+    "sha256": "496a45e86b5bca75ef33c09e422966e35dcd5f54185f9f907932234395543ff9",
+    "pages": 4,
+    "chunks": 9
+  },
+  {
+    "document_id": "doc-3b7f787f5e79",
+    "source": "ЛК ь11 2025 £Ѓ§.pdf",
+    "title": "ЛК ь11 2025 £Ѓ§",
+    "sha256": "0f8294c64dc5f4caedf9f21f745c9383c0d0c7901258855def8da65511d2061a",
+    "pages": 19,
+    "chunks": 40
+  },
+  {
+    "document_id": "doc-4e05c52655f2",
+    "source": "ЛК ь12  2025 £Ѓ§ .pdf",
+    "title": "ЛК ь12  2025 £Ѓ§ ",
+    "sha256": "e3027185ce0b0eabb9d89ed294527623217f70be7be122934de32805c9093d40",
+    "pages": 15,
+    "chunks": 37
+  },
+  {
+    "document_id": "doc-3cbc581583b8",
+    "source": "ЛК ь13  2025 £Ѓ§.pdf",
+    "title": "ЛК ь13  2025 £Ѓ§",
+    "sha256": "de24b1496a51d4dd8a58f68bcbf6fb22df69ce0ed8fcaeff626bef38a6951b35",
+    "pages": 12,
+    "chunks": 30
+  },
+  {
+    "document_id": "doc-461e2bbbd0da",
+    "source": "ЛК ь14  2025£Ѓ§.pdf",
+    "title": "ЛК ь14  2025£Ѓ§",
+    "sha256": "78ee6c0aa7be4a968dfb3aee7430d023e1f5b629644715a83714dfa7e7b4adb0",
+    "pages": 15,
+    "chunks": 36
+  },
+  {
+    "document_id": "doc-1a760f32d870",
+    "source": "ЛК ь15  2025 £Ѓ§.pdf",
+    "title": "ЛК ь15  2025 £Ѓ§",
+    "sha256": "6e7fe99e9672c528b7aabce6d8bcbf24c774a099f303fdd73142f9fb8215eb94",
+    "pages": 14,
+    "chunks": 32
+  },
+  {
+    "document_id": "doc-e13322b3bbd5",
+    "source": "ЛК ь16  2025 £Ѓ§.pdf",
+    "title": "ЛК ь16  2025 £Ѓ§",
+    "sha256": "fb6dbbf39e1cb0d37715f404464a8fa82813a43726515e39db3da0e96b6e3a96",
+    "pages": 6,
+    "chunks": 15
+  },
+  {
+    "document_id": "doc-2f38282a63ff",
+    "source": "ЛК ь17  2025 £Ѓ§.pdf",
+    "title": "ЛК ь17  2025 £Ѓ§",
+    "sha256": "cdd1e8bb901d00a692a0dd8900cc6847603c0c106ec57c5de8425664000a4ac4",
+    "pages": 6,
+    "chunks": 15
+  },
+  {
+    "document_id": "doc-35b23da21c55",
+    "source": "ЛК ь2  2025 £Ѓ§.pdf",
+    "title": "ЛК ь2  2025 £Ѓ§",
+    "sha256": "a60e35410e24ec09c3273445599c634b0583842bd63f52c9718b4530fd3cd748",
+    "pages": 13,
+    "chunks": 29
+  },
+  {
+    "document_id": "doc-19f2b8c87775",
+    "source": "ЛК ь3  2025 £Ѓ§.pdf",
+    "title": "ЛК ь3  2025 £Ѓ§",
+    "sha256": "348fef297c4ac59cdb7189fe86e93a65c80e495a9ebff47bcf7a8760b4aa66ba",
+    "pages": 19,
+    "chunks": 36
+  },
+  {
+    "document_id": "doc-11618572c501",
+    "source": "ЛК ь4  2025 £Ѓ§.pdf",
+    "title": "ЛК ь4  2025 £Ѓ§",
+    "sha256": "11105ec398195c2939085eb387c6ac1b2d5f5cc3476f1d054a19bccc8edcc8ad",
+    "pages": 17,
+    "chunks": 47
+  },
+  {
+    "document_id": "doc-c96bbc1fc1fb",
+    "source": "ЛК ь5  2025 £Ѓ§.pdf",
+    "title": "ЛК ь5  2025 £Ѓ§",
+    "sha256": "a2be21567c42d00154374aa236a9fa4941cc501700b9ee190155ea7cc4b88ad2",
+    "pages": 9,
+    "chunks": 22
+  },
+  {
+    "document_id": "doc-5f3f748b9983",
+    "source": "ЛК ь6  2025 £Ѓ§.pdf",
+    "title": "ЛК ь6  2025 £Ѓ§",
+    "sha256": "a398fe1fb5ac069232889ec0a719baab52d82d3c3df98226fcab2de27e1bc600",
+    "pages": 12,
+    "chunks": 24
+  },
+  {
+    "document_id": "doc-3b0dcd5dcc6c",
+    "source": "ЛК ь7 2025 £Ѓ§.pdf",
+    "title": "ЛК ь7 2025 £Ѓ§",
+    "sha256": "b338f0470b621adaf40e9a94246e71d674d279b8e78d7becc993ae75e63ea060",
+    "pages": 19,
+    "chunks": 34
+  },
+  {
+    "document_id": "doc-920569f2074c",
+    "source": "ЛК ь8  2025 £Ѓ§.pdf",
+    "title": "ЛК ь8  2025 £Ѓ§",
+    "sha256": "e396de2da6db1444812650f10692b9d2ea4f169901d27ed1d28480e82e8b074d",
+    "pages": 14,
+    "chunks": 30
+  },
+  {
+    "document_id": "doc-057e431d24cc",
+    "source": "ЛК ь9  2025 £Ѓ§.pdf",
+    "title": "ЛК ь9  2025 £Ѓ§",
+    "sha256": "d7cb6a7784dccf138324d4090068e84e22801b1452a41b66e320d86f34ba5362",
+    "pages": 16,
+    "chunks": 37
+  },
+  {
+    "document_id": "doc-2ed8083eeded",
+    "source": "ЛК№1(18) .pdf",
+    "title": "ЛК№1(18) ",
+    "sha256": "2631a29f46ab978f31ba11625a5150cf3c49b1616fe5d3cc62be7ad2dc3dc3cb",
+    "pages": 17,
+    "chunks": 43
+  },
+  {
+    "document_id": "doc-144c6a42ebbe",
+    "source": "ЛК№10(27).pdf",
+    "title": "ЛК№10(27)",
+    "sha256": "a7526bf05e4e95d924bf9f63bd8945f29557ffe15e8f042f56e17eccf9b5393b",
+    "pages": 27,
+    "chunks": 67
+  },
+  {
+    "document_id": "doc-9a5fad824d9c",
+    "source": "ЛК№11(28).pdf",
+    "title": "ЛК№11(28)",
+    "sha256": "68cdd75185cb56629cfc8e0932838c93ff6c582f33ff545caad12234ddc893f9",
+    "pages": 32,
+    "chunks": 72
+  },
+  {
+    "document_id": "doc-3d742602a52e",
+    "source": "ЛК№12(29).pdf",
+    "title": "ЛК№12(29)",
+    "sha256": "47badff6cf2b5c9ca8667da227f323237e638db45f0817ef7661785ba908f465",
+    "pages": 43,
+    "chunks": 102
+  },
+  {
+    "document_id": "doc-2cc5c1712f18",
+    "source": "ЛК№13(30).pdf",
+    "title": "ЛК№13(30)",
+    "sha256": "ef810f6e6de25d2da35745172a249ffac248269a46c42b097065f988711602d7",
+    "pages": 20,
+    "chunks": 46
+  },
+  {
+    "document_id": "doc-ed4b71ddf9b8",
+    "source": "ЛК№14(31).pdf",
+    "title": "ЛК№14(31)",
+    "sha256": "1ba55ebee349c4e86ded2b64325dbb7b0c6664457a790182f79ee137f0b48112",
+    "pages": 29,
+    "chunks": 51
+  },
+  {
+    "document_id": "doc-e5c2376d3f64",
+    "source": "ЛК№15(32).pdf",
+    "title": "ЛК№15(32)",
+    "sha256": "61b14647e7a90658724138df62147f80ef1ef4db83ed91a730c6b6b40e430e8c",
+    "pages": 13,
+    "chunks": 22
+  },
+  {
+    "document_id": "doc-18f40db06aba",
+    "source": "ЛК№16(33).pdf",
+    "title": "ЛК№16(33)",
+    "sha256": "cc4a811982fe2ba7fe80699e430b4e968ff662ef0104c759f810d2187f8e60b3",
+    "pages": 23,
+    "chunks": 58
+  },
+  {
+    "document_id": "doc-1e70378b9b12",
+    "source": "ЛК№17(34).pdf",
+    "title": "ЛК№17(34)",
+    "sha256": "71c92fefdac3d43a8d1da8c2e626544e6c7020617d87a85c5ac743c5a69afb46",
+    "pages": 15,
+    "chunks": 32
+  },
+  {
+    "document_id": "doc-49655604f566",
+    "source": "ЛК№2(19).pdf",
+    "title": "ЛК№2(19)",
+    "sha256": "adaca42b54112a306fb5b03ab1b478fff6d926c27c315c6e16cfac26bfc1cd77",
+    "pages": 22,
+    "chunks": 45
+  },
+  {
+    "document_id": "doc-f09328bce9a7",
+    "source": "ЛК№3(20) Архитектура АСОИУ 2-й курс 3-й семестр 2025 год.pdf",
+    "title": "ЛК№3(20) Архитектура АСОИУ 2-й курс 3-й семестр 2025 год",
+    "sha256": "2614f2974d9228a17bc2afe73e8821a4f8c34e3185284cff6226da685517bb37",
+    "pages": 17,
+    "chunks": 35
+  },
+  {
+    "document_id": "doc-f8efc2020d97",
+    "source": "ЛК№4(21) Архитектура АСОИУ 2-й курс 3-й семестр 2025 год .pdf",
+    "title": "ЛК№4(21) Архитектура АСОИУ 2-й курс 3-й семестр 2025 год ",
+    "sha256": "e4cd8bb90c273ca5ab7f73d5df63c03a2eaf06df7226cb425280ec71a44c3427",
+    "pages": 19,
+    "chunks": 34
+  },
+  {
+    "document_id": "doc-14d6f1934f1c",
+    "source": "ЛК№5(22) Архитектура АСОИУ 2-й курс 3-й семестр 2025 год .pdf",
+    "title": "ЛК№5(22) Архитектура АСОИУ 2-й курс 3-й семестр 2025 год ",
+    "sha256": "a89e2bf055a114f7ce259528d93b1dd656491ae0698c424e295508380507d5d0",
+    "pages": 14,
+    "chunks": 24
+  },
+  {
+    "document_id": "doc-15a2106dbf7f",
+    "source": "ЛК№6(23) Архитектура АСОИУ 20й курс 3-й семестр 2025 год.pdf",
+    "title": "ЛК№6(23) Архитектура АСОИУ 20й курс 3-й семестр 2025 год",
+    "sha256": "125857d85b0ee85cb2e8130bf42cbcd070efae61bf4051c1279a9ff11e09d19c",
+    "pages": 8,
+    "chunks": 18
+  },
+  {
+    "document_id": "doc-5c84988a1299",
+    "source": "ЛК№7(24) Архитектура АСОИУ 2-й курс 3-й семестр 2025 год .pdf",
+    "title": "ЛК№7(24) Архитектура АСОИУ 2-й курс 3-й семестр 2025 год ",
+    "sha256": "f9f381c8b0acc464d9895165fcad391d3c15ef38110de2eb0673dbf741fd4fe6",
+    "pages": 9,
+    "chunks": 24
+  },
+  {
+    "document_id": "doc-bc8955914af2",
+    "source": "ЛК№8(25).pdf",
+    "title": "ЛК№8(25)",
+    "sha256": "41ebe90323c4679de904c44fef80459ccd61463f46fbd5aa24299853a2ba9e27",
+    "pages": 25,
+    "chunks": 57
+  },
+  {
+    "document_id": "doc-6e392396f19a",
+    "source": "ЛК№9(26).pdf",
+    "title": "ЛК№9(26)",
+    "sha256": "951413fdd08a2861ea3d556c25f8b904e19b6ec3c0335f2bb78c2ab8ce996e9f",
+    "pages": 37,
+    "chunks": 69
+  },
+  {
+    "document_id": "doc-a284e0d8fbff",
+    "source": "ЛР 2 ВС  Задание и отчёт.pdf",
+    "title": "ЛР 2 ВС  Задание и отчёт",
+    "sha256": "d6d5430564fbbebff3ac4f2496afe35344ebc021e2177018f607692d1370c8f2",
+    "pages": 6,
+    "chunks": 6
+  },
+  {
+    "document_id": "doc-1cd9637bf84d",
+    "source": "ЛР5_Pstgr(процедуры триггеры).pdf",
+    "title": "ЛР5_Pstgr(процедуры триггеры)",
+    "sha256": "3b1916ba76fee41cc88606986ea9c8b92e30a3a37227742471d09d747466e698",
+    "pages": 13,
+    "chunks": 28
+  },
+  {
+    "document_id": "doc-41ae0f2bd45b",
+    "source": "Методические_указания_по_лабораторной_работе_3_26.pdf",
+    "title": "Методические_указания_по_лабораторной_работе_3_26",
+    "sha256": "5caee5bd7a426a8ffb515f392bd181467411d0a4ca5c17481bccf9e93a132b24",
+    "pages": 24,
+    "chunks": 39
+  },
+  {
+    "document_id": "doc-170d5593b104",
+    "source": "ОС_ Лаб.работа №3(Ubuntu).pdf",
+    "title": "ОС_ Лаб.работа №3(Ubuntu)",
+    "sha256": "dc170fb63dcc08075908511a209d728bd9e15044458524c7261a13e6d49ac7e5",
+    "pages": 14,
+    "chunks": 27
+  },
+  {
+    "document_id": "doc-717763b330a1",
+    "source": "ОС_ Лаб.работа №4(Alt Linux).pdf",
+    "title": "ОС_ Лаб.работа №4(Alt Linux)",
+    "sha256": "585c2a2c36c8a32476c2e6c3b97cc79f6673ad3daf74c7fd55021fbab2c84d6d",
+    "pages": 24,
+    "chunks": 43
+  },
+  {
+    "document_id": "doc-baa26a6e1e57",
+    "source": "ОС_ Лаб.работа №6(Alt Linux).pdf",
+    "title": "ОС_ Лаб.работа №6(Alt Linux)",
+    "sha256": "298cb811f05909a47897f4c24e57d06bc22ff0b15e4fe853a8558da9ed628a11",
+    "pages": 23,
+    "chunks": 42
+  },
+  {
+    "document_id": "doc-256dbdd607ed",
+    "source": "ОС_ Лаб.работа №7(Alt Linux).pdf",
+    "title": "ОС_ Лаб.работа №7(Alt Linux)",
+    "sha256": "26349969a0c281898d3be8e34a35b9d8c7119fb8d8c6562d1f8432524db28b1f",
+    "pages": 29,
+    "chunks": 55
+  },
+  {
+    "document_id": "doc-a2cc31be4eb5",
+    "source": "Отчет_ОС_Лабораторные_5-8_Корольков.pdf",
+    "title": "Отчет_ОС_Лабораторные_5-8_Корольков",
+    "sha256": "8f6f2ee7638d32deec748f72cccc785232eaeb896e02f6e4461005f62a2744c3",
+    "pages": 17,
+    "chunks": 20
+  },
+  {
+    "document_id": "doc-a0cec0bc9376",
+    "source": "РПЗ Бромберг ИУ5-54Б.pdf",
+    "title": "РПЗ Бромберг ИУ5-54Б",
+    "sha256": "06d8a84629fddd2ec69292f3fe6838a1d89df9cebd27570f0214013b04e926e6",
+    "pages": 35,
+    "chunks": 48
+  },
+  {
+    "document_id": "doc-de4e3d5c0b0d",
+    "source": "сети 4лаба.pdf",
+    "title": "сети 4лаба",
+    "sha256": "7a2c73921e031891c52fb893ff8aeab080ced61269a89d2ba1b292593ecd1e16",
+    "pages": 13,
+    "chunks": 18
+  },
+  {
+    "document_id": "doc-207fc44079b2",
+    "source": "сети лаба 3.pdf",
+    "title": "сети лаба 3",
+    "sha256": "5caee5bd7a426a8ffb515f392bd181467411d0a4ca5c17481bccf9e93a132b24",
+    "pages": 24,
+    "chunks": 39
+  }
+]
